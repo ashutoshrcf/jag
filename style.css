@@ -50,7 +50,7 @@
 
 /*Chat bubble Icon*/
 
-.lpc_desktop.lpc_maximized-header__icon,
+#lpChat .lpc_desktop.lpc_maximized-header__icon,
 .lpc_desktop.lpc_minimized-header__icon {
     background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620221542/logo-jaguar_kkhmbz.png") !important;
     background-repeat: no-repeat !important;
