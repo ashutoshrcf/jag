@@ -28,7 +28,7 @@
 .lpc_desktop.lpc_maximized-header,
 .lpc_desktop.lpc_minimized-header {
     border: none!important;
-    background: #005A2B !important;
+    background: #141414 !important;
     height: 40px !important;
     border-radius: 0px !important;
     box-shadow: none !important;
@@ -41,7 +41,7 @@
     font-weight: 100 !important;
     font-size: 16px !important;
     margin-top: 4px !important;
-    margin-left: 10px !important;
+    margin-left: 85px !important;
 }
 
 .lpc_desktop.lpc_minimized-header__text {
@@ -52,12 +52,12 @@
 
 .lpc_desktop.lpc_maximized-header__icon,
 .lpc_desktop.lpc_minimized-header__icon {
-    background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1619721669/logo-large-2x_cscgbc.webp") !important;
+    background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620221542/logo-jaguar_kkhmbz.png") !important;
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
     background-size: contain !important;
-    height: 24px !important;
-    width: 46px !important;
+    height: 22px !important;
+    width: 49px !important;
 }
 
 .lpc_desktop.lpc_maximized-header__icon-asset,
@@ -154,7 +154,7 @@
 }
 
 .lpc_desktop.lpc_layout {
-    background: #E9ECEC !important;
+    background: #F0F0F0 !important;
 }
 
 .lpc_desktop.lpc_maximied-header {
@@ -370,7 +370,7 @@
 
 .lpc_desktop.lpc_message_visitor {
     border: none !important;
-    background: #005A2B !important;
+    background: #9E1B32 !important;
     padding: 10px !important;
     border-radius: 0px !important;
 }
