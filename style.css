@@ -1,9 +1,9 @@
 @font-face {font-family: "Jaguar Bold";
-src:url("Jaguar-Bold.woff") format("woff");
+src:url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284205/Fonts/Jaguar-Bold_txwmos.woff") format("woff");
 }
 
 @font-face {font-family: "Proxima Nova Rg"; 
-src: url("ProximaNova-Regular.otf") format("opentype");
+src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/ProximaNova-Regular_t1rk7c.otf") format("opentype");
 }
 
 :root {
@@ -51,7 +51,7 @@ src: url("ProximaNova-Regular.otf") format("opentype");
     color: #fff !important;
     font-family: var(--font-heading) !important;
     font-weight: 100 !important;
-    font-size: 16px !important;
+    font-size: 12px !important;
     margin-top: 0px !important;
     margin-left: 85px !important;
 }
