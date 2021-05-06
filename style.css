@@ -1,5 +1,17 @@
+@font-face {font-family: "Jaguar Bold";
+src:url("Jaguar-Bold.woff") format("woff");
+}
+
+@font-face {font-family: "Proxima Nova Rg"; 
+src: url("ProximaNova-Regular.otf") format("opentype");
+}
+
+:root {
+  --font-heading: 'Jaguar Bold';
+  --font-face: 'Proxima Nova Rg';
+}
 .lpc_desktop.lpc_body {
-    background: #F0F0F0 !important;
+    background: #E9ECEC !important;
 }
 .lpc_desktop.lpc_window_maximized {
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
@@ -20,7 +32,7 @@
 .lpc_desktop.lpc_window_maximized,
 .lpc_desktop.lpc_window_minimized {
     width: 350px !important;
-    border: none!important;
+    border: none !important;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
     overflow: hidden;
 }
@@ -29,7 +41,7 @@
 .lpc_desktop.lpc_minimized-header {
     border: none!important;
     background: #141414 !important;
-    height: 40px !important;
+    height: 35px !important;
     border-radius: 0px !important;
     box-shadow: none !important;
 }
@@ -37,10 +49,10 @@
 .lpc_desktop.lpc_minimized-header__text,
 .lpc_desktop.lpc_maximized-header__text {
     color: #fff !important;
-    font-family: 'Helvetica' !important;
+    font-family: var(--font-heading) !important;
     font-weight: 100 !important;
     font-size: 16px !important;
-    margin-top: 4px !important;
+    margin-top: 0px !important;
     margin-left: 85px !important;
 }
 
@@ -55,9 +67,10 @@
     background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620221542/logo-jaguar_kkhmbz.png") !important;
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
-    background-size: 49px 22px !important;
-    height: 22px !important;
-    width: 49px !important;
+    background-size: 53px 24px !important;
+    height: 24px !important;
+    width: 53px !important;
+    margin-top: -3px !important;
 }
 
 .lpc_desktop.lpc_maximized-header__icon-asset,
@@ -112,9 +125,9 @@
 .lpc_desktop.lpc_maximized-header__minimize-button {
     background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620214995/minus-white_npbwll.png") !important;
     background-repeat: no-repeat !important;
-    background-position: 8px 10px !important;
+    background-position: 8px 5px !important;
     background-size: 16px !important;
-    height: 40px !important;
+    height: 25px !important;
 }
 
 .lpc_desktop.lpc_maximized-header__minimize-button-asset {
@@ -143,7 +156,7 @@
 }
 .lpc_desktop.lpc_maximized-header__close-button-asset,
 .lpc_desktop.lpc_minimized-header__close-button-asset {
-    display: none;
+    display: none !important;
 }
 
 .lpc_desktop.lpc_window_maximized {
@@ -154,11 +167,11 @@
 }
 
 .lpc_desktop.lpc_layout {
-    background: #F0F0F0 !important;
+    background: #E9ECEC !important;
 }
 
-.lpc_desktop.lpc_maximied-header {
-    border: none!important;
+.lpc_desktop.lpc_maximized-header {
+    border: none !important;
 }
 
 .lpc_desktop.lpc_window_slider-open {
@@ -227,7 +240,7 @@
 }
 
 .lpc_desktop.lpc_body {
-    top: 40px !important;
+    top: 35px !important;
     overflow: hidden !important;
     border: none !important;
 }
@@ -256,6 +269,7 @@
 .lpc_desktop.lpc_message-area__timestamp {
     margin-top: 10px !important;
     color: #4A4F54 !important;
+    font-family: var(--font-face) !important;
 }
 
 .lpc_desktop.lpc_message-area_system {
@@ -275,19 +289,20 @@
 .lpc_desktop.lpc_message-area__timestamp_agent {
     padding: 0px 0px 0px 0px !important;
     color: #4A4F54 !important;
+    margin-left: -20px !important;
 }
 
 .lpc_desktop.lpc_message_agent {
     background: #fff !important;
     border: none !important;
-    padding: 10px !important;
-    border-radius: 0px !important;
+    padding: 8px !important;
+    border-radius: 5px 5px 5px 0px !important;
 }
 
 .lpc_desktop.lpc_message__text,
 .lpc_desktop.lpc_message_agent__text p {
     color: #333 !important;
-    font-family: Helvetica !important;
+    font-family: var(--font-face) !important;
 }
 .lpc_desktop.lpc_message_agent a{
     color: blue !important;
@@ -318,7 +333,7 @@
 }
 */
 .lpc_desktop.lpc_message-area_agent {
-    padding: 0 20px 4px !important;
+    padding: 0 10px 4px !important;
 }
 
 .lpc_desktop.lpc_message-area__avatar_agent {
@@ -329,14 +344,15 @@
 
 .lpc_desktop.lpc_card {
     border: 1px solid #fff !important;
-    border-radius: 0px 0px 0px 0 !important;
+    border-radius: 5px 5px 5px 0 !important;
     overflow: hidden !important;
     max-width: none !important;
+    margin-left: 0px !important;
 }
 
 .lpc_desktop.lpc_card__text {
     background: #fff !important;
-    padding: 10px !important;
+    padding: 8px !important;
 }
 
 .lpc_desktop.lpc_card__text span {
@@ -345,7 +361,7 @@
 }
 
 .lpc_desktop.lpc_card__button {
-    border-top: 2px solid #E9ECEC !important;
+    border-top: 1px solid #E9ECEC !important;
 }
 
 .lpc_desktop.lpc_card__button button {
@@ -371,14 +387,14 @@
 .lpc_desktop.lpc_message_visitor {
     border: none !important;
     background: #9E1B32 !important;
-    padding: 10px !important;
-    border-radius: 0px !important;
+    padding: 8px !important;
+    border-radius: 5px 5px 0px 5px  !important;
 }
 
 .lpc_desktop.lpc_message__text_visitor,
 .lpc_desktop.lpc_message__text_visitor p {
     color: #ffffff !important;
-    font-family: Helvetica !important;
+    font-family: var(--font-face) !important;
 }
 
 .lpc_desktop.lpc_message_card {
@@ -411,17 +427,19 @@
 }
 
 .lpc_desktop.lpc_composer {
-    height: 40px !important;
+    height: 35px !important;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
     border-top: none !important;
+    overflow: hidden !important;
 }
 
 .lpc_desktop.lpc_composer__text-area-wrapper {
-    padding: 14px 0 !important;
+    padding: 10px 0 !important;
 }
 
 .lpc_desktop.lpc_composer__text-area {
     font-size: 14px !important;
+    font-family: var(--font-face) !important;
 }
 
 .lpc_desktop.lpc_composer__text-area:focus {
@@ -437,21 +455,21 @@
     top: 14px !important;
 }
 /*Menu button End Conversation, Clear History, Mute*/
-/*
+
 .lpc_desktop.lpc_maximized-header__menu-button{
-    background-image: url(https://res.cloudinary.com/dvt6kjlil/image/upload/v1619642133/menu-icon_q7bnvm.png) !important;
-    top: 5px !important;
-    display: block !important;
+    background-image: url(https://res.cloudinary.com/dvt6kjlil/image/upload/v1620214995/menu-icon_rrhktj.png) !important;
+    top: 10px !important;
+    transform: rotate(90deg) !important;
+    background-size: 24px !important;
 }
 .lpc_desktop.lpc_maximized-header__menu-button-asset{
     display: none !important;
 }
-*/
 
 .lpc_desktop.lpc_composer button::focus {
     outline: none !important;
 }
 
 .lpc_desktop.lpc_composer__send-button {
-    top: 12px !important;
+    top: 7px !important;
 }
