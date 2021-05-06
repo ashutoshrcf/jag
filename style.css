@@ -11,7 +11,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
   --font-face: 'Proxima Nova Rg';
 }
 .lpc_desktop.lpc_body {
-    background: #E9ECEC !important;
+    background: #F0F0F0 !important;
 }
 .lpc_desktop.lpc_window_maximized {
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
@@ -167,7 +167,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
 }
 
 .lpc_desktop.lpc_layout {
-    background: #E9ECEC !important;
+    background: #F0F0F0 !important;
 }
 
 .lpc_desktop.lpc_maximized-header {
@@ -193,7 +193,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
 .lpc_desktop.lpc_slider__body {
     top: 50px !important;
     box-shadow: none !important;
-    border-right: 1px solid #E9ECEC;
+    border-right: 1px solid #F0F0F0;
 }
 
 .lpc_desktop.lpc_slider-header {
@@ -361,7 +361,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
 }
 
 .lpc_desktop.lpc_card__button {
-    border-top: 1px solid #E9ECEC !important;
+    border-top: 1px solid #F0F0F0 !important;
 }
 
 .lpc_desktop.lpc_card__button button {
