@@ -67,10 +67,10 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
     background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620221542/logo-jaguar_kkhmbz.png") !important;
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
-    background-size: 53px 24px !important;
-    height: 24px !important;
-    width: 53px !important;
-    margin-top: -3px !important;
+    background-size: 58px 26px !important;
+    height: 26px !important;
+    width: 58px !important;
+    margin-top: -5px !important;
 }
 
 .lpc_desktop.lpc_maximized-header__icon-asset,
@@ -319,19 +319,39 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
     font-weight: 600 !important;
 }
 /*AGENT TAIL*/
-/* 
+
 .lpc_desktop.lpc_message__text_agent:after {
-    background: url("") no-repeat;
+    background: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620379802/Tails/agent-tail-white_ef0du2.svg") no-repeat;
     display: block;
     content: ' ';
     width: 10px;
-    height: 15px;
+    height: 48px;
     position: absolute;
     margin-left: -16px;
     bottom: 0;
     margin-top: -10px;
+    -webkit-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    transform: scaleY(-1);
 }
-*/
+
+/*USER CHAT TAIL*/
+
+.lpc_desktop.lpc_message__text_visitor:after {
+    background: url(https://res.cloudinary.com/dvt6kjlil/image/upload/v1620379802/Tails/visitor-tail-red_oc0uq1.svg) no-repeat;
+    display: block;
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: -8px;
+    right: -14px;
+    -webkit-transform: scale(-1);
+    -moz-transform: scale(-1);
+    transform: scale(-1);
+}
+
+
 .lpc_desktop.lpc_message-area_agent {
     padding: 0 10px 4px !important;
 }
@@ -344,7 +364,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
 
 .lpc_desktop.lpc_card {
     border: 1px solid #fff !important;
-    border-radius: 5px 5px 5px 0 !important;
+    border-radius: 5px 5px 5px 5px !important;
     overflow: hidden !important;
     max-width: none !important;
     margin-left: 0px !important;
@@ -404,22 +424,6 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
 .lpc_desktop.lpc_message__text_card:after {
     background: unset !important;
 }
-/*USER CHAT TAIL*/
-/*
-.lpc_desktop.lpc_message__text_visitor:after {
-    background: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620214995/chat-tail-user_r43pkq.svg") no-repeat;
-    display: block;
-    content: ' ';
-    width: 10px;
-    height: 15px;
-    position: absolute;
-    bottom: -10px;
-    right: -12px;
-    -webkit-transform: scaleX(-1);
-    -moz-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-*/
 
 .lpc_desktop.lpc_message-tail__border_visitor,
 .lpc_desktop.lpc_message-tail_visitor {
