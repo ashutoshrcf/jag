@@ -367,7 +367,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
     border-radius: 5px 5px 5px 5px !important;
     overflow: hidden !important;
     max-width: none !important;
-    margin-left: 0px !important;
+    margin-left: -8px !important;
 }
 
 .lpc_desktop.lpc_card__text {
