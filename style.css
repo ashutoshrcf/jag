@@ -542,27 +542,25 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
 .lpc_desktop.lpc_confirmation-dialog__title {
 	font-family: var(--font-face) !important;
 	font-size: 16px !important;
-	padding: 0px 20px 30px 0px !important;
+	padding: 0px 20px 20px 20px !important;
 	color: #000 !important;
 }
 
 .lpc_desktop.lpc_confirmation-dialog__cancel-button {
-	width: 44% !important;
-	margin: 0% !important;
-	margin-left: 50% !important;
+	width: 45% !important;
+	margin-left: 55% !important;
 	font-family: var(--font-face) !important;
 	font-size: 14px !important;
-	background: #E9ECEC !important;
-	color: #005A2B !important;
+	background: #F0F0F0 !important;
+	color: #9E1B32 !important;
 }
 
 .lpc_desktop.lpc_confirmation-dialog__confirm-button {
-	width: 44% !important;
-	margin: 0% !important;
-	margin-left: -95% !important;
+	width: 45% !important;
+	margin-left: -100% !important;
 	font-family: var(--font-face) !important;
 	font-size: 14px !important;
-	background: #0C121C !important;
+	background: #9E1B32 !important;
 	color: #FFFFFF !important;
 }
 
@@ -572,7 +570,6 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620284204/Fonts/Prox
 	background: #fff !important;
 	outline: 1px solid #0C121C !important;
 }
-
 
 /*
 .lpc_message-area__timestamp_auto[title^="Conversation closed"] {
